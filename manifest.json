@@ -1,0 +1,23 @@
+{
+  "name": "StoreToken",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "Pulls your XBL3.0 token from the microsoft store",
+  "icons": { "128" : "icon.png"},
+  "homepage_url": "http://github.com/StoreDev/StoreToken",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "StoreToken"
+  },
+  "permissions": [
+    "http://www.microsoft.com/*",
+    "tabs",
+	"cookies",
+    "https://www.microsoft.com/*"
+  ]
+}
