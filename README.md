@@ -1,3 +1,6 @@
+```
+- This project has been archived and will no longer recieve updates, the generate tokens function in store bot will take its place
+```
 # StoreToken
 A Chrome and edge extension that enables users to pull their own xbl3.0 token
 
